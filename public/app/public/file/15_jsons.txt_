@@ -1,0 +1,34 @@
+[
+
+    {
+        "field_display": "Name",
+        "field_value": "name",
+        "field_type": "text",
+        "field_default: "",
+        "field_placeholder: "",
+    },
+    {
+        "field_display": "Age",
+        "field_value": "age",
+        "field_type": "number",
+        "field_default: "",
+        "field_placeholder: "",
+    },
+    {
+        "field_display": "Sex",
+        "field_value": "sex",
+        "field_type": "select",
+        "field_options": [
+            {
+                "options_string": "Male",
+                "options_value": "m",
+                "options_properties: "default" "selected"
+            },
+            {
+                "options_string": "Female",
+                "options_value": "f",
+                "options_properties: "default" "selected"
+            }
+        ]
+    }
+]
